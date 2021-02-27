@@ -1,0 +1,93 @@
+.tutor {
+    margin-top: 0.4rem;
+    .tutorList {
+        // width: 100%;
+        .tutorItem {
+            background: #FFFFFF;
+            padding: 0.53rem 0.4rem 0.53rem 0.4rem;
+            box-shadow: 0rem 0.07rem 0.27rem 0rem #EDF2F8;
+            border-radius: 0.2rem;
+            margin-bottom: 0.4rem;
+            .fl {
+                width: 2.4rem;
+                img {
+                    width: 100%;
+                    height: 3.2rem;
+                    object-fit: contain;
+                }
+            }
+            .fr {
+                width: calc(100% - 2.4rem - 0.4rem);
+                position: relative;
+                // padding-right: 2.4rem;
+                box-sizing: border-box;
+                h2 {
+                    padding-right: 2.4rem;
+                    font-size: 0.43rem;
+                    font-weight: bold;
+                    color: #2F2F32;
+                    word-break: break-all;
+                }
+                h3 {
+                    font-size: 0.37rem;
+                    font-weight: 400;
+                    color: #9FA0A5;
+                    margin-top: 0.13rem;
+                }
+                p {
+                    font-size: 0.32rem;
+                    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+                    font-weight: 400;
+                    color: #63666D;
+                    line-height: 0.45rem;
+                    margin-top: 0.2rem;
+                    text-overflow: -o-ellipsis-lastline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 4;
+                    line-clamp: 4;
+                    -webkit-box-orient: vertical;
+                    word-break: break-all;
+                }
+                span {
+                    display: inline-block;
+                    width: 1.33rem;
+                    height: 0.75rem;
+                    line-height: 0.75rem;
+                    border-radius: 0.13rem;
+                    border: 0.01rem solid #FD9738;
+                    font-size: 0.35rem;
+                    font-weight: 400;
+                    color: #FD9738;
+                    padding-left: 0.71rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    &:before {
+                        content: "";
+                        width: 0.37rem;
+                        height: 0.37rem;
+                        background: url('../../assets/question//phone.png') no-repeat center;
+                        background-size: cover;
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                    }
+                }
+                em {
+                    display: inline-block;
+                    height: 0.75rem;
+                    line-height: 0.75rem;
+                    font-size: 0.35rem;
+                    font-weight: 400;
+                    color: #FD9738;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+.think {
+    width: 8.4rem;
+    height: 2.2rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.07rem 0.27rem 0rem #EDF2F8;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem 0.4rem 0 0;
+    padding: 0 0.4rem;
+    p:first-child {
+        font-size: 0.48rem;
+        font-weight: bold;
+        color: #2F2F32;
+        display: inline-block;
+    }
+    p:last-child {
+        display: inline-block;
+        font-size: 0.35rem;
+        font-weight: 400;
+        color: #FD9738;
+        span {
+            font-size: 0.64rem;
+            font-weight: bold;
+            color: #FD9738;
+        }
+    }
+}
+
+.rates {
+    padding: 0.53rem 0.4rem;
+    background: #FFFFFF;
+    border-radius: 0.2rem;
+    margin-top: 0.64rem;
+    .rateList {
+        width: 100%;
+        .rateItem {
+            font-size: 0.37rem;
+            font-weight: 400;
+            color: #2F2F32;
+            margin-bottom: 0.3rem;
+            .rateP {
+                margin-left: 0.4rem;
+                display: inline-block;
+                vertical-align: middle;
+                span {
+                    display: inline-block;
+                    width: 0.59rem;
+                    height: 0.59rem;
+                    margin-right: 0.13rem;
+                }
+            }
+        }
+    }
+    .userIn {
+        margin-top: 0.64rem;
+        img {
+            width: 0.85rem;
+            height: 0.85rem;
+            border-radius: 50%;
+            object-fit: cover;
+            vertical-align: middle;
+            margin-right: 0.29rem;
+        }
+        span {
+            font-size: 0.37rem;
+            font-weight: 400;
+            color: #2F2F32;
+        }
+    }
+    em {
+        display: inline-block;
+        font-style: normal;
+        font-size: 0.35rem;
+        font-weight: 400;
+        color: #63666D;
+        line-height: 0.52rem;
+        margin-top: 0.3rem;
+    }
+    b {
+        display: inline-block;
+        width: 100%;
+        font-size: 0.35rem;
+        font-weight: 400;
+        color: #9FA0A5;
+        margin-top: 0.8rem;
+        text-align: right;
+    }
+}
+
+.modifyBtn {
+    width: 9.2rem;
+    height: 1.47rem;
+    line-height: 1.47rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #C6C8CE;
+    text-align: center;
+    margin-top: 0.4rem;
+    p {
+        font-size: 0.43rem;
+        font-weight: 500;
+        color: #2F2F32;
+        a {
+            color: #2F2F32;
+        }
+    }
+}

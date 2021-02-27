@@ -1,0 +1,97 @@
+.details {
+    margin-top: 0.4rem;
+    .tutorBox {
+        padding: 0.53rem 0.4rem 1.2rem;
+        background: #ffffff;
+        box-shadow: 0rem 0.07rem 0.27rem 0rem #edf2f8;
+        border-radius: 0.2rem;
+        .tutorTop {
+            width: 100%;
+            margin-bottom: 0.8rem;
+            .fl {
+                width: 2.4rem;
+                height: 3.2rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .fr {
+                width: calc(100% - 2.4rem - 0.4rem);
+                h1 {
+                    font-size: 0.64rem;
+                    font-weight: bold;
+                    color: #2f2f32;
+                    margin-top: 0.27rem;
+                }
+                h2 {
+                    font-size: 0.37rem;
+                    font-weight: 400;
+                    color: #fd9738;
+                    margin-top: 0.17rem;
+                }
+            }
+        }
+        .titles {
+            font-size: 0.43rem;
+            font-weight: bold;
+            color: #2f2f32;
+            margin-top: 0.4rem;
+            margin-bottom: 0.33rem;
+        }
+        .tutorAdvance {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            .advaceItem {
+                display: inline-block;
+                padding: 0.17rem 0.27rem;
+                border-radius: 0.13rem;
+                border: 0.01rem solid #ececee;
+                font-size: 0.37rem;
+                font-weight: 400;
+                color: #63666d;
+                margin: 0 0.4rem 0.4rem 0;
+            }
+        }
+        span {
+            display: inline-block;
+            font-size: 0.32rem;
+            font-weight: 400;
+            color: #63666d;
+            line-height: 0.45rem;
+            word-break: break-all;
+        }
+    }
+    .concatBtn {
+        width: 9.2rem;
+        height: 1.47rem;
+        line-height: 1.47rem;
+        background: #FD9738;
+        box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(253, 151, 56, 0.4);
+        border-radius: 0.2rem;
+        margin-top: 0.4rem;
+        p {
+            font-size: 0.43rem;
+            font-weight: bold;
+            color: #FFFFFF;
+            position: relative;
+            text-align: center;
+            margin-left: 0.16rem;
+            &:before {
+                content: "";
+                width: 0.59rem;
+                height: 0.59rem;
+                background: url('../../assets/question//phone1.png') no-repeat center;
+                background-size: cover;
+                position: absolute;
+                top: 0.44rem;
+                left: 2.85rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
